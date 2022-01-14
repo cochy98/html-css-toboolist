@@ -21,9 +21,41 @@ body{
     padding: 10px;
 }
 
+/* grandezza e centratura del main-container */
+.container{
+    width: 80%;
+    margin: 20px auto;
+    /* border: 1px solid black;
+    border-radius: 80%; */
+}
 
+/* modifica padding del main-header */
+.main-header{
+    padding: 20px 50px;
+    margin-bottom: 3px;
+}
+
+.bg-lightblue{
+    background-color: #47adf1;
+}
+
+.main-header-button{
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 10%;
+}
+
+/* centro logo e text-logo */
+#header-logo-img, #header-logo-text{
+    vertical-align: middle;
+}
 
 /* modifico la proprietà del testo del logo: da block a inline-block */
 #header-logo-text{
     display: inline-block;
 }
+
+/* .first-list {
+    list-style-image: url('../img/check.png');
+  } */
