@@ -26,45 +26,43 @@
 
     <main class="container">
         <div class="main-header bg-white">
-            <button class="bg-lightblue main-header-button">Add Task</button>
-            <button class="main-header-button">Add Section</button>
+            <button id="button-add-task" class="main-header-button bg-lightblue">Add Task</button>
+            <button id="button-add-section" class="main-header-button">Add Section</button>
         </div>
 
-
-
-        <div class="lists bg-white">
-            <!-- list 1 -->
+        <div class="main-lists bg-white">
+            <!-- list 1 "New Task" -->
             <div class="list">
-            <h3>&#9660; New Task</h3>
-            <ul class="first-list">
-                <li>Quarterterly Newsletter <button>Editorial</button></li>
-            </ul>
+                <h3>&#9660; New Task</h3>
+                <ul class="first-list">
+                    <li><span class="checkbox">&#10003;</span> Quarterterly Newsletter <button class="bg-lightblue">Editorial</button></li>
+                </ul>
             </div>
+            <br>
 
-            <!-- list 2 -->
+            <!-- list 2 "Today" -->
             <div class="list">
-            <h3>&#9660; Today</h3>
-            <ul>
-                <li>Recruiting blog post <button>Editorial</button></li>
-                <li>Mobile app launch <button>Q1 Goals</button></li>
-                <li>Interview John H. <button>Recruiting</button></li>
-                <li>Summit update to mobile storefront <button>Mobile</button></li>
-            </ul>
+                <h3>&#9660; Today</h3>
+                <ul>
+                    <li><span class="checkbox">&#10003;</span> Recruiting blog post <button class="bg-lightblue">Editorial</button></li>
+                    <li><span class="checkbox">&#10003;</span> Mobile app launch <button class="bg-violet">Q1 Goals</button></li>
+                    <li><span class="crossmark checkbox">&#10006;</span> Interview John H. <button class="bg-verdeaqua">Recruiting</button></li>
+                    <li><span class="checkbox">&#10003;</span> Summit update to mobile storefront <button class="bg-orange">Mobile</button></li>
+                </ul>
             </div>
+            <br>
 
-            <!-- list 3 -->
+            <!-- list 3 "Upcoming" -->
             <div class="list">
-            <h3>&#9660; Upcoming</h3>
-            <ul>
-                <li>Schedule meeting with Alex</li>
-                <li>Homepage refresh <button>Website</button></li>
-                <li>Onboard new Sales team members <button>Sales</button></li>
-                <li>Review editorial calendar <button>Editorial</button></li>
-            </ul>
+                <h3>&#9660; Upcoming</h3>
+                <ul>
+                    <li><span class="crossmark checkbox">&#10006;</span> Schedule meeting with Alex</li>
+                    <li><span class="checkbox">&#10003;</span> Homepage refresh <button class="bg-pink">Website</button></li>
+                    <li><span class="checkbox">&#10003;</span> Onboard new Sales team members <button class="bg-lightgreen">Sales</button></li>
+                    <li><span class="checkbox">&#10003;</span> Review editorial calendar <button class="bg-lightblue">Editorial</button></li>
+                </ul>
             </div>
         </div>
-
     </main>
-    
 </body>
 </html>

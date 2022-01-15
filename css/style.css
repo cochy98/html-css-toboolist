@@ -11,9 +11,67 @@ body{
     background-color: #f6f8f9;
 }
 
+/* interline lista */
+ul{
+    line-height: 2.5em;
+    list-style: none; 
+}
+
+/* ul{
+    list-style-image: url("../img/check.png");
+} */
+
+/* colore font lista */
+h3, li{
+    color: #444851;
+}
+
+/* font lista in grassetto */
+li{
+    font-weight: bold;
+}
+
+/* elementi comuni button lista */
+li>button{
+    color: white;
+    padding: 6px;
+    border: none;
+    border-radius: 15px;
+}
+
 /* regola css per impostare uno sfondo bianco */
 .bg-white {
     background-color: white;
+}
+
+/* colore di sfondo blue chiaro */
+.bg-lightblue{
+    background-color: #47adf1;
+}
+
+/* colore di sfondo viola */
+.bg-violet{
+    background-color: #9c72e4;
+}
+
+/* colore di sfondo verde acqua */
+.bg-verdeaqua{
+    background-color: #64c0a9;
+}
+
+/* colore di sfondo arancio */
+.bg-orange{
+    background-color: #f29e33;
+}
+
+/* colore di sfondo rosa scuro */
+.bg-pink{
+    background-color: #d863a1;
+}
+
+/* colore di sfondo verde chiaro */
+.bg-lightgreen{
+    background-color: #b0c926;
 }
 
 /* regola css per un padding da 10px */
@@ -33,17 +91,45 @@ body{
 .main-header{
     padding: 20px 50px;
     margin-bottom: 3px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
 }
 
-.bg-lightblue{
-    background-color: #47adf1;
-}
-
+/* proprietà comuni per i due button del main-header */
 .main-header-button{
-    color: white;
     padding: 5px;
-    border: none;
-    border-radius: 10%;
+    border-radius: 6px;
+}
+
+/* padding main-lists */
+.main-lists{
+    padding: 35px 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+}
+
+.checkbox{
+    color: #6fc6b2;
+    font-size: .7em;
+    padding: 2px;
+    border: 1px solid #6fc6b2;
+    border-radius: 50%;
+}
+
+.crossmark{
+    color: #ea4237;
+    border-color:#ea4237;
+}
+
+#button-add-task{
+    color: white;
+    border: 1px solid #47adf1;
+}
+
+#button-add-section{
+    background: none;
+    color: #c5cbd0;
+    border: 1px solid #c5cbd0;
 }
 
 /* centro logo e text-logo */
@@ -55,7 +141,3 @@ body{
 #header-logo-text{
     display: inline-block;
 }
-
-/* .first-list {
-    list-style-image: url('../img/check.png');
-  } */
